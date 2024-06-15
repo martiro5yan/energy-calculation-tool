@@ -4,7 +4,7 @@ body {
 }
 
 /* Стили для экранов шириной до 600px */
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     body {
         position: relative;
         min-height: 85vh;
