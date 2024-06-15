@@ -7,7 +7,7 @@ body {
 @media (max-width: 400px) {
     body {
         position: relative;
-        min-height: 100vh;
+        min-height: 85vh;
         background-color: #272727;
     }
     .container-fluid {
