@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="result">
+                <h2 id="kVa">0</h2>
+                <h2 id="kVt">0</h2>
+                <h2 id="t">0</h2>
+            </div>
+            <form id="myForm">
+                <input class='inputValue' inputmode="numeric" type="text" id="A" placeholder="A">
+                <input class='inputValue' inputmode="numeric" type="text" id="B" placeholder="B">
+                <input class='inputValue' inputmode="numeric" type="text" id="C" placeholder="C">
+                
+            </form>
+            <div class="button-cont">
+                <button onclick="Calculate(600)" >600</button>
+                <button onclick="Calculate(640)" >640</button>
+                <button onclick="Calculate(800)" >800</button>
+                <button onclick="Calculate(1000)" >1000</button>
+                <button onclick="Calculate(1200)" >1200</button>
+                <button onclick="Calculate(1600)" >1600</button>
+                <button onclick="Calculate(3200)" >3200</button>
+                <button onclick="Calculate(8000)" >8000</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
