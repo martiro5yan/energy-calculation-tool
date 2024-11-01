@@ -45,10 +45,11 @@ body {
     }
     .inpusl{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center; /* Центрирование по горизонтали */
         justify-content: center;
     }
+    .future,
     .inputInpuls{
         width: 28%;;
         height: 30px;
@@ -59,6 +60,9 @@ body {
         
         background-color: #464646;
         color: white;
+    }
+    .future{
+        background-color: #272727;
     }
     .inputInpuls:focus{
         outline: solid;
@@ -114,10 +118,9 @@ body {
         outline-color: aqua;
     }
     button:active{
-        color: black;
         background-color: aqua;
         box-shadow: 0px 0px 5px rgb(0, 235, 252);
-        color: aqua;
+        color: black;
     }
     button:focus{
         outline: solid;

@@ -22,7 +22,9 @@
                 <input class='inputValue' inputmode="numeric" type="text" id="C" placeholder="C">
             </form>
             <div class="inpusl">
+            <input disabled class="future" type="text" inputmode="numeric" id="impuls" placeholder="">
             <input class="inputInpuls" type="text" inputmode="numeric" id="impuls" placeholder="Импульс 5">
+            <input class="inputInpuls" type="text" inputmode="numeric" id="post" placeholder="Постоянная" oninput="handlePostChange(this.value)">
             </div>
             <div class="button-cont">
                 <button onclick="Calculate(600)" >600</button>
@@ -36,7 +38,12 @@
             </div>
         </div>
     </div>
-
+    <script>
+        // Функция для обработки изменения в поле "Постоянная"
+        function handlePostChange(value) {
+            Calculate(value)
+        }
+    </script>
     <script src="main.js"></script>
 </body>
 </html>
