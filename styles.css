@@ -47,11 +47,11 @@ body {
         display: flex;
         flex-direction: row;
         align-items: center; /* Центрирование по горизонтали */
-        justify-content: center;
+        justify-content: end;
     }
-    .future,
+    
     .inputInpuls{
-        width: 28%;;
+        width: 28%;
         height: 30px;
         margin: 10px;
         text-align: center;
@@ -61,8 +61,8 @@ body {
         background-color: #464646;
         color: white;
     }
-    .future{
-        background-color: #272727;
+    
+        
     }
     .inputInpuls:focus{
         outline: solid;
